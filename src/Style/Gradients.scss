@@ -1,0 +1,129 @@
+.gradients{
+  padding: 50px 0;
+  .container {
+    padding: 10px 15px;
+    margin: 5px auto;
+    .empty-list{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      margin: 3px auto;
+      width: 95%;
+      overflow: hidden;
+      margin-top: 40px;
+      h3{}
+    }
+    .input-pa{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 350px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      .searchIcon{
+        color: #222022;
+        background-color: #e0e8f0;
+        padding: 15px;
+      }
+      input{
+        padding: 15px 10px;
+      width: 300px;
+        border: none;
+        caret-color: #7f5af0;
+        &:focus {
+          outline: none;
+          border: none;
+        }
+        &::placeholder {
+          color: #00000070;
+        }
+      }
+    }
+    .cards{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+      gap: 2rem;
+      margin: 50px auto;
+      padding: 10px 20px;
+      .card {
+        position: relative;
+        background-color: #050505;
+        border: .5px solid #eeeeee10;
+        height: 295px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        .card-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: absolute;
+          top: 12px;
+          width: 90%;
+          margin-bottom: 5px;
+          .action-icon{
+            .fav-btn {
+              
+            }
+            .copy-btn ,.fav-btn{
+              color: #fff;
+              background-color: transparent;
+              border: none;
+              font-size: 26px;
+              cursor: pointer;
+            }
+          }
+          
+        }
+        .main-gradient{
+          width: 130px;
+          height: 130px;
+          border-radius: 50%;
+          margin-bottom: 15px;
+          border: .5px solid #eeeeee6e;
+        }
+        .colors-balls{
+            display: flex;
+          justify-content: space-between;
+          align-items: center;
+            .colors-ball {
+              width: 25px;
+              height: 25px;
+              display: block;
+              margin: 5px;
+              border-radius: 50%;
+              border: .5px solid #eeeeee6e;
+            }
+        }
+        
+        .colors-val{
+          color: #c2cfdf;
+        }
+      }
+    }
+  }
+  .pagi {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    li {
+      button {
+        span {
+          border: 1px solid #ffffff10;
+        }
+      }
+    }
+  }
+}
+.added{
+  color: #e25353 !important;
+}
+ul {
+  list-style: none;
+}

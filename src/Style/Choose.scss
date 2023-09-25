@@ -1,0 +1,51 @@
+.choose {
+  .trans-btn {
+    max-width: 750px;
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    .jsd {
+      text-decoration:wavy underline #7f5af0;
+      }
+  }
+  .button-52 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid white;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    color: #fff;
+    &:after {
+      content: "";
+      background-color: #7f5af0;
+      width: 100%;
+      z-index: -1;
+      position: absolute;
+      height: 100%;
+      top: 7px;
+      left: 7px;
+      transition: 0.2s;
+    }
+    &:hover:after {
+      top: 0px;
+      left: 0px;
+    }
+  }
+  .scroll-down {
+    display: block;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}

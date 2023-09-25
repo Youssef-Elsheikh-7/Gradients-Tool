@@ -1,0 +1,24 @@
+body {
+  background-color: #0d1117;
+  color: #fff;
+  font-family: 'Chillax', sans-serif !important;
+}
+
+.App {
+  position: relative;
+  text-align: center;
+  min-height: 100vh ;
+}
+
+button.MuiButtonBase-root ,
+  div.MuiPaginationItem-root {
+  color: #fff;
+}
+
+.css-wjh20t-MuiPagination-ul{
+  margin: 40px auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
